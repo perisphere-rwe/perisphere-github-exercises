@@ -10,7 +10,7 @@ tar_option_set(
 )
 
 results_version_major <- 1
-results_version_minor <- 1
+results_version_minor <- 0
 
 if(!dir.exists(glue("doc/results-v{results_version_major}"))){
   dir.create(glue("doc/results-v{results_version_major}"))

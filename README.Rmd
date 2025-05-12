@@ -135,7 +135,7 @@ Notice how the message focuses on **why** I made changes instead of focusing on 
 
 For this exercise, you want to be familiar with the concept of a remote on GitHub. I recommend [this chapter](https://happygitwithr.com/git-remotes) of Jenny Bryan's excellent book: *Happy Git and GitHub for the useR* as background reading for this exercise.
 
-As mentioned in the book chapter, it's likely that your local git project already has a remote on GitHub. To check, run `git remove -v` to list all your remotes. Here is what you want to see:
+As mentioned in the book chapter, it's likely that your local git project already has a remote on GitHub. To check, run `git remote -v` to list all your remotes. Here is what you want to see:
 
 ```{r fig.align='center', echo=FALSE}
 knitr::include_graphics('img/screen-git_remote_list.png')

@@ -170,7 +170,7 @@ excellent book: *Happy Git and GitHub for the useR* as background
 reading for this exercise.
 
 As mentioned in the book chapter, it’s likely that your local git
-project already has a remote on GitHub. To check, run `git remove -v` to
+project already has a remote on GitHub. To check, run `git remote -v` to
 list all your remotes. Here is what you want to see:
 
 <img src="img/screen-git_remote_list.png" style="display: block; margin: auto;" />

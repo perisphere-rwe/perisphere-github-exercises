@@ -52,7 +52,7 @@ knitr::include_graphics('img/screen-git_status-1.png')
 If you made any changes to non-ignored files in the repository (such as this readme file), you may see red text like this:
 
 ```{r fig.align='center', echo=FALSE}
-knitr::include_graphics('img/screen-git_status-1.png')
+knitr::include_graphics('img/screen-git_status-2.png')
 ```
 
 If you do see something like this, it means you modified a file. To revert your modifications (if you see any), run `git reset --hard` in your terminal, then verify you have a clean working branch by running `git status` in your terminal. 

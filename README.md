@@ -46,7 +46,7 @@ git) and run `git status` - you should see
 If you made any changes to non-ignored files in the repository (such as
 this readme file), you may see red text like this:
 
-<img src="img/screen-git_status-1.png" style="display: block; margin: auto;" />
+<img src="img/screen-git_status-2.png" style="display: block; margin: auto;" />
 
 If you do see something like this, it means you modified a file. To
 revert your modifications (if you see any), run `git reset --hard` in

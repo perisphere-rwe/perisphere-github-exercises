@@ -193,14 +193,14 @@ knitr::include_graphics('img/screen-github_branches-3.png')
 Click on the "Create pull request" button after adding a title and description to your pull request. Note that GitHub will use your most recent commit message by default for this information, which is just another incentive to write good commit messages.
 
 ```{r fig.align='center', echo=FALSE}
-knitr::include_graphics('img/screen-github_branches-3.png')
+knitr::include_graphics('img/screen-github_branches-4.png')
 ```
 
 <br/>
 
 And now you have an open pull request! :fire:
 
-## Git exercise 7: Make your contributions
+## git exercise 7: Make your contributions
 
 Open `doc/results.Rmd` and review each block of code from start to finish (there are a lot of useful tools introduced in the setup code blocks). If you have any questions, [open an issue](https://github.com/perisphere-rwe/perisphere-github-exercises/issues) to ask for help. If everything makes sense and you feel confident you can add a new figure or table to this document, no need to open an issue.
 

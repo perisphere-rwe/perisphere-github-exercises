@@ -231,13 +231,13 @@ description to your pull request. Note that GitHub will use your most
 recent commit message by default for this information, which is just
 another incentive to write good commit messages.
 
-<img src="img/screen-github_branches-3.png" style="display: block; margin: auto;" />
+<img src="img/screen-github_branches-4.png" style="display: block; margin: auto;" />
 
 <br/>
 
 And now you have an open pull request! :fire:
 
-## Git exercise 7: Make your contributions
+## git exercise 7: Make your contributions
 
 Open `doc/results.Rmd` and review each block of code from start to
 finish (there are a lot of useful tools introduced in the setup code

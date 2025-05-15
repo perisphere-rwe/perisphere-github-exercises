@@ -65,7 +65,7 @@ set_fig_landscape <- function() {
 }
 
 set_fig_portrait <- function() {
-  knitr::opts_chunk$set(fig.width = 6, fig.height = 4)
+  knitr::opts_chunk$set(fig.width = 8, fig.height = 6)
 }
 
 theme_set(
@@ -344,7 +344,7 @@ The default figure margins are set by the `page_long_above()` and `page_wide_abo
 
 ## Figure 1: Penguin dimensions (normal version)
 
-```{r, fig.width=8, fig.height=6}
+```{r}
 
 fig <- ggplot(data = data) + 
   aes(x = bill_length_mm, y = bill_depth_mm, color = species) + 
@@ -361,7 +361,7 @@ There is a `theme_set()` command at the beginning of the document that sets our 
 
 ## Figure 2: Penguin dimensions (wide version)
 
-```{r, fig.width=8, fig.height=6}
+```{r}
 
 fig + 
   theme(panel.border = element_blank())
@@ -372,7 +372,7 @@ fig +
 
 ## Figure 3: Penguin dimensions (flipper length vs. body mass)
 
-```{r, fig.width=8, fig.height=6}
+```{r}
 
 fig3 <- ggplot(data = data) + 
   aes(x = flipper_length_mm, y = body_mass_g, color = species) + 
@@ -380,8 +380,3 @@ fig3 <- ggplot(data = data) +
 
 fig3
 ```
-
-
-Hang on, how did the figure size change? That is an intended side effect of `page_long_above()` and `page_wide_above()`. Notably, if you ever want to avoid this convenient side effect, you can override it by setting `fig.width = X` and `fig.height = Y` where X and Y are your preferred figure width and height, in inches.
-
-

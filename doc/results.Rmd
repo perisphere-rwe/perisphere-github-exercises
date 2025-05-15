@@ -283,7 +283,7 @@ data %>%
   slice(1:3) %>% 
   select(-body_mass_g, -sex, -year) %>% 
   mutate(across(where(is.numeric), table_value)) %>% 
-  as_grouped_data(groups = 'island') %>% 
+  as_grouped_data(groups = 'species') %>% 
   # infuse after as_grouped_data, b/c as_grouped_data can
   # wipe away attributes, which will delete your labels.
   infuse_dictionary(meta, units = 'descriptive') %>% 

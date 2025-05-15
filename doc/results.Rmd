@@ -308,7 +308,7 @@ data %>%
 ```
 \newpage
 
-## Table 3: Characteristics for Penguin Species subgroups
+## Table 3: Characteristics for penguin species subgroups
 ```{r}
 
 footer_tbl_val <- "Table values are n (%) or median (25th, 75th percentile)"
@@ -370,7 +370,7 @@ fig +
 
 \newpage
 
-## Figure 3: Penguin dimensions (Flipper length vs. Body mass)
+## Figure 3: Penguin dimensions (flipper length vs. body mass)
 
 ```{r, fig.width=8, fig.height=6}
 

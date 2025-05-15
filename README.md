@@ -90,7 +90,10 @@ they do? How is `results_version_minor` different from
 `results_version_major`? Open up the `README.Rmd` file and Write your
 responses in the space below:
 
-*Response:*
+Response: They are used to define the major and minor versions of the
+results. The major version is followed by “v”. The minor version is
+after the major and followed by “-”. The major version is also used to
+define the result folder such as results-v1.
 
 Now you can check to see if your answer was right by modifying the value
 of `results_version_minor` to be 1, and re-running the pipeline. In your
@@ -112,7 +115,11 @@ Why isn’t the new results document listed here? (Hint: open `.gitignore`
 and check lines 51 and 52, then google “how do gitignore files work?”).
 Write your response below:
 
-*Response*:
+Response: A .gitignore file tells Git which files or directories to
+ignore in a repository — meaning Git won’t track changes to those files
+or include them in commits. Line 51 in .gitignore listed
+“doc/results-*”, meaning files inside the ”doc/results-*” folder will
+not be tracked.
 
 Now you’re ready to commit these changes. First, you need to add files
 to the ‘staging’ area of your commit. `git` automatically tracks which
@@ -163,7 +170,7 @@ excellent book: *Happy Git and GitHub for the useR* as background
 reading for this exercise.
 
 As mentioned in the book chapter, it’s likely that your local git
-project already has a remote on GitHub. To check, run `git remove -v` to
+project already has a remote on GitHub. To check, run `git remote -v` to
 list all your remotes. Here is what you want to see:
 
 <img src="img/screen-git_remote_list.png" style="display: block; margin: auto;" />

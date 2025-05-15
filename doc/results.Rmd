@@ -370,7 +370,7 @@ fig +
 
 \newpage
 
-## Figure 3: Penguin dimensions (Flipper length vs. Body mass)
+## Figure 3: Penguin dimensions (flipper length vs. body mass)
 
 ```{r, fig.width=8, fig.height=6}
 
